@@ -1,0 +1,56 @@
+2026-06-15 16:07:03 [INFO ] TestListener - ===== Test Suite Started: ChromeTest =====
+2026-06-15 16:07:03 [INFO ] TestListener - ===== Test Suite Started: FirefoxTest =====
+2026-06-15 16:07:03 [INFO ] BaseTest - Test started - Browser: chrome
+2026-06-15 16:07:03 [INFO ] BaseTest - Test started - Browser: firefox
+2026-06-15 16:07:05 [INFO ] BaseTest - Chrome browser launched successfully
+2026-06-15 16:07:09 [INFO ] BaseTest - Navigated to URL: https://blazedemo.com
+2026-06-15 16:07:10 [INFO ] TestListener - Test started: testFLightBookingEndToEnd
+2026-06-15 16:07:10 [INFO ] FlightBookingTest - TC01: Flight Booking End-to-End
+2026-06-15 16:07:10 [INFO ] HomePage - Starting flight search: Boston → London
+2026-06-15 16:07:10 [INFO ] HomePage - Departure city selected: Boston
+2026-06-15 16:07:11 [INFO ] BaseTest - Firefox browser launched successfully
+2026-06-15 16:07:11 [INFO ] HomePage - Destination city selected: London
+2026-06-15 16:07:11 [INFO ] HomePage - Number of elements matching findFlightsBtn locator: 1
+2026-06-15 16:07:11 [INFO ] HomePage - Found element -> tag: input, text: '', value: Find Flights
+2026-06-15 16:07:12 [INFO ] HomePage - Clicked Find Flights button. Current URL after click: https://blazedemo.com/reserve.php
+2026-06-15 16:07:12 [INFO ] ReservePage - Current URL: https://blazedemo.com/reserve.php
+2026-06-15 16:07:12 [INFO ] ReservePage - Reserve page loaded: true
+2026-06-15 16:07:13 [INFO ] ReservePage - Selected first available flight
+2026-06-15 16:07:14 [INFO ] BaseTest - Navigated to URL: https://blazedemo.com
+2026-06-15 16:07:14 [INFO ] TestListener - Test started: testFLightBookingEndToEnd
+2026-06-15 16:07:14 [INFO ] FlightBookingTest - TC01: Flight Booking End-to-End
+2026-06-15 16:07:14 [INFO ] HomePage - Starting flight search: Boston → London
+2026-06-15 16:07:14 [INFO ] HomePage - Departure city selected: Boston
+2026-06-15 16:07:14 [INFO ] PurchasePage - Passenger details entered for: John Smith
+2026-06-15 16:07:15 [INFO ] HomePage - Destination city selected: London
+2026-06-15 16:07:15 [INFO ] HomePage - Number of elements matching findFlightsBtn locator: 1
+2026-06-15 16:07:15 [INFO ] HomePage - Found element -> tag: input, text: '', value: Find Flights
+2026-06-15 16:07:15 [INFO ] PurchasePage - Card details entered for: John Smith
+2026-06-15 16:07:16 [INFO ] HomePage - Clicked Find Flights button. Current URL after click: https://blazedemo.com/reserve.php
+2026-06-15 16:07:16 [INFO ] ReservePage - Current URL: https://blazedemo.com/reserve.php
+2026-06-15 16:07:16 [INFO ] ReservePage - Reserve page loaded: true
+2026-06-15 16:07:16 [INFO ] PurchasePage - Clicked Purchase Flight button
+2026-06-15 16:07:16 [INFO ] ConfirmationPage - Confirmation header: Thank you for your purchase today!
+2026-06-15 16:07:16 [INFO ] ConfirmationPage - Booking confirmed: true
+2026-06-15 16:07:16 [INFO ] ConfirmationPage - Booking ID received: 1781519838456
+2026-06-15 16:07:16 [INFO ] FlightBookingTest - Booking completed successfully! Booking ID: 1781519838456
+2026-06-15 16:07:16 [INFO ] FlightBookingTest - TC01 PASSED
+2026-06-15 16:07:16 [INFO ] TestListener - Test PASSED: testFLightBookingEndToEnd
+2026-06-15 16:07:17 [INFO ] ReservePage - Selected first available flight
+2026-06-15 16:07:17 [INFO ] BaseTest - Browser closed and driver removed
+2026-06-15 16:07:17 [INFO ] BaseTest - ========================================
+2026-06-15 16:07:17 [INFO ] PurchasePage - Passenger details entered for: John Smith
+2026-06-15 16:07:18 [INFO ] TestListener - ===== Test Suite Finished: ChromeTest =====
+2026-06-15 16:07:18 [INFO ] TestListener - Report generated in /reports folder
+2026-06-15 16:07:18 [INFO ] PurchasePage - Card details entered for: John Smith
+2026-06-15 16:07:19 [INFO ] PurchasePage - Clicked Purchase Flight button
+2026-06-15 16:07:19 [INFO ] ConfirmationPage - Confirmation header: Thank you for your purchase today!
+2026-06-15 16:07:19 [INFO ] ConfirmationPage - Booking confirmed: true
+2026-06-15 16:07:19 [INFO ] ConfirmationPage - Booking ID received: 1781519841633
+2026-06-15 16:07:19 [INFO ] FlightBookingTest - Booking completed successfully! Booking ID: 1781519841633
+2026-06-15 16:07:19 [INFO ] FlightBookingTest - TC01 PASSED
+2026-06-15 16:07:19 [INFO ] TestListener - Test PASSED: testFLightBookingEndToEnd
+2026-06-15 16:07:20 [INFO ] BaseTest - Browser closed and driver removed
+2026-06-15 16:07:20 [INFO ] BaseTest - ========================================
+2026-06-15 16:07:20 [INFO ] TestListener - ===== Test Suite Finished: FirefoxTest =====
+2026-06-15 16:07:20 [INFO ] TestListener - Report generated in /reports folder

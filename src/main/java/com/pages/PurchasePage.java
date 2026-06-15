@@ -24,7 +24,7 @@ public class PurchasePage {
     private By checkBox = By.id("rememberMe");
     
     // constructor
-    public void PurchasePage(WebDriver driver) {
+    public PurchasePage(WebDriver driver) {
     	this.driver = driver;
     }
     

@@ -35,9 +35,27 @@ public class HomePage {
     	logger.info("Destination city selected: "+city);
     }
     
+//    public void clickFindFlights() {
+//    	driver.findElement(findFlightsBtn);
+//    	logger.info("clicked find flights button");
+//    }
+    
     public void clickFindFlights() {
-    	driver.findElement(findFlightsBtn);
-    	logger.info("clicked find flights button");
+        java.util.List<org.openqa.selenium.WebElement> btns = driver.findElements(findFlightsBtn);
+        logger.info("Number of elements matching findFlightsBtn locator: " + btns.size());
+        for (org.openqa.selenium.WebElement el : btns) {
+            logger.info("Found element -> tag: " + el.getTagName() + ", text: '" + el.getText() + "', value: " + el.getAttribute("value"));
+        }
+        driver.findElement(findFlightsBtn).click();
+        logger.info("Clicked Find Flights button. Current URL after click: " + driver.getCurrentUrl());
+    }
+    
+    // One method to do all steps together
+    public void searchFlight(String from, String to) {
+        logger.info("Starting flight search: " + from + " → " + to);
+        selectDepartureCity(from);
+        selectDestinationCity(to);
+        clickFindFlights();
     }
 	
 }
